@@ -1,0 +1,87 @@
+.jumbotron {
+    background-image: url("../assets/notebook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    padding: 100px 0px;
+    color: aliceblue;
+}
+.bg-dark{
+    background-color: #202020 !important;
+}
+.navbar-nav{
+    width: 100%;
+}
+.nav-item{
+    width: 16.66%;
+}
+.nav-link {
+    color: aliceblue !important;
+    text-align: center;
+}  
+.nav-link:hover{
+    color: grey !important;
+} 
+.section {
+    margin-top: 50px;
+    
+}
+.section-title {
+    text-align: center;
+    border: 2px solid #202020;
+    border-radius: .5rem;
+    background-color: #202020;
+    color: aliceblue;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    min-width: 300px;
+    padding: 10px;
+}  
+.column50 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-width: 300px;
+}
+.row {
+    margin: 50px 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.section2 {
+    margin: 50px 10px;
+    padding: 0 10%;
+}
+.center {
+    text-align: center;
+}
+.left {
+    padding-left: 10%;
+    text-align: left;
+}
+.profile-picture {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.picture {
+    height: 100%;
+}
+.picture-round {
+    height: 100%;
+    border-radius: 50%;
+}
+.vert-center{
+    padding: 50px 0;
+}
+.footer {
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
